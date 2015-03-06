@@ -47,7 +47,7 @@
   :prefix "moutline-"
   :group 'wp)
 
-(defcustom moutline-regexp "[#\^L]+"
+(defcustom moutline-regexp "#+"
   "Regular expression to match the beginning of a heading.
 Any line whose beginning matches this regexp is considered to start a heading.
 Note that Moutline mode only checks this regexp at the start of a line,
